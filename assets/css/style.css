@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+
+
+:root {
+    --dark: rgb(95, 93, 93);
+    --white: #ffffff;
+    --light: rgb(243, 243, 243);
+}
+
+
+body {
+  font-family: Roboto Mono;
+  font-size: 19px;
+  line-height: 1;
+  color: var(--dark);
+  background-color: var(--white);
+}
+
+
+textarea{
+background: transparent;
+border: none;
+resize: none;
+color: #000000;
+border-left: 1px solid black;
+padding: 10px;
+}
+
+header {
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 0;
+  background-color:var(--light);
+  color: var(--dark);
+  margin-bottom: 1px;
+}
+
+header h1 {
+  font-weight: 300;
+  font-size: 40px;
+  color: var(--dark);
+}
+
+main {
+  width: 100%;
+}
+
+h5 {
+  color: #525151;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+ p {
+  margin-top: 6px !important;
+  padding: 2px;
+  font-size: 14px;
+ }
+
+
+/* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
+.container {
+  position: relative;
+  border: none;
+}
+
+.currentTime {
+  font-family: Roboto Mono;
+  font-weight: 100;  
+  border: none;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border: none;
+  background-color: var(--light);
+  margin: 1px;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.timeLabel{
+  text-align: center;
+  border-radius: 15px;
+  color: var(--dark);
+}
+
+.description{
+  margin: 10px;
+  padding: 10px;
+  white-space: pre-wrap;
+  color:var(--dark);
+}
+
+.task {
+  border: none;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+}
+
+.hour {
+  border-right: 1px solid rgba(75, 76, 77, 0.75);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: rgba(75, 76, 77, 0.75);
+}
+
+.saveButton {
+  background-color: rgba(75, 76, 77, 0.9);
+  border: none;
+  color: #ffffff; 
+  text-align: center;
+  padding: 5px;
+}
+
+.saveButton i:hover {
+  background-color: rgba(99, 112, 129, 1);
+  transition: all .3s ease-in-out;
+}
+
+
+.past {
+  background-color: #a1a0a0;
+  color: white;
+}
+
+.current {
+  background-color: #ece9e9ef;
+  color: white;
+}
+
+footer, p, a {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #8a8a8a;
+  text-align: center;
+}
