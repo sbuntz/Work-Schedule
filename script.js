@@ -7,7 +7,7 @@ var hours = {
 $(".scheduler").click(function() {
 
   $("textarea").each(function() {
-      replaceTextarea($(this));
+      replaceTextArea($(this));
   })
 
   //to stop being able to write for time past
@@ -70,7 +70,7 @@ var createList = function(listText, hour) {
 }
 
 
-var replaceTextarea = function(textareaElement) {
+var replaceTextArea = function(textareaElement) {
 
     var taskInfo = textareaElement.closest(".hourColour");
     var textArea = taskInfo.find("textarea");
@@ -88,7 +88,7 @@ var replaceTextarea = function(textareaElement) {
 //functions
 
 $(".saveButton").click(function() {
-    replaceTextarea($(this));
+    replaceTextArea($(this));
 })
 
 
