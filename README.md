@@ -11,7 +11,14 @@ Deployed URL: https://sbuntz.github.io/Work-Schedule/
 
 ![](/assets/images/screenshot.png)
 
-
+##Features
+HTML
+CSS
+Bootstap
+Font Awesome
+JQuery
+Git Branching Workflow
+Agile Software Development
 
 ## License
 This project is released under the [MIT License](LICENSE)
